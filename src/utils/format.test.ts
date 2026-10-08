@@ -10,9 +10,11 @@ import {
 
 describe('format', () => {
     it('formats amounts', () => {
-        expect(formatSats(250_000_000n)).toBe('250,000 sat');
-        expect(formatSats(967_878_534n)).toBe('967,878.534 sat');
-        expect(formatSats(1_500n)).toBe('1.5 sat');
+        expect(formatSats(250_000_000n)).toBe('250,000 sats');
+        expect(formatSats(967_878_534n)).toBe('967,878.534 sats');
+        expect(formatSats(1_500n)).toBe('1.5 sats');
+        expect(formatSats(1_000n)).toBe('1 sat');
+        expect(formatSats(0n)).toBe('0 sats');
         expect(formatMsat(1_000n)).toBe('1,000 msat');
         expect(formatBtc(250_000_000n)).toBe('0.0025 BTC');
         expect(formatBtc(100_000_000_000n)).toBe('1 BTC');

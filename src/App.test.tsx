@@ -52,7 +52,7 @@ describe('Decode page', () => {
         renderAt(`/?q=${encodeURIComponent(invoice)}`);
         expect(screen.getByText('BOLT 11 invoice')).toBeTruthy();
         expect(screen.getByText('1 cup coffee')).toBeTruthy();
-        expect(screen.getAllByText(/250,000 sat/).length).toBeGreaterThan(0);
+        expect(screen.getAllByText(/250,000 sats/).length).toBeGreaterThan(0);
     });
 
     it('decodes typed input and writes it to the URL', async () => {
