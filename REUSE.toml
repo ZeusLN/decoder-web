@@ -1,0 +1,22 @@
+version = 1
+
+# Everything is AGPL code unless a later annotation says otherwise.
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Atlas 21 Inc."
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+# Commercial fonts, used under licence; not open source.
+[[annotations]]
+path = ["src/assets/fonts/**"]
+precedence = "override"
+SPDX-FileCopyrightText = ["Pangram Pangram Foundry", "2022 Kontour Type, LLC"]
+SPDX-License-Identifier = "LicenseRef-Proprietary-Fonts"
+
+# BOLT test vectors from lightning/bolts.
+[[annotations]]
+path = ["test/fixtures/*.json"]
+precedence = "override"
+SPDX-FileCopyrightText = "The lightning/bolts contributors"
+SPDX-License-Identifier = "CC-BY-4.0"

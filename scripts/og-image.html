@@ -1,0 +1,81 @@
+<!doctype html>
+<!--
+  Template for public/og-image.png (1200x630). Render with
+  scripts/render-og-image.sh after changing it. The invoice is the
+  BOLT 11 spec example "Please send $3 for a cup of coffee", coloured by
+  the decoder's own segments, with the payment hash highlighted.
+-->
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+@font-face { font-family: 'Marlide Display Bold'; src: url('../src/assets/fonts/Marlide-Display-Bold.ttf'); }
+@font-face { font-family: 'PP Neue Montreal'; src: url('../src/assets/fonts/PPNeueMontreal-Book.otf'); font-weight: 400; }
+@font-face { font-family: 'PP Neue Montreal'; src: url('../src/assets/fonts/PPNeueMontreal-Medium.otf'); font-weight: 500; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1200px; height: 630px; }
+body {
+    background: radial-gradient(ellipse at 78% 35%, #1c1c1c 0%, #0a0a0a 55%, #000 100%);
+    color: #fff;
+    font-family: 'PP Neue Montreal', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+.left { position: absolute; left: 72px; top: 70px; width: 520px; }
+.brand { display: flex; align-items: center; gap: 18px; }
+.brand svg { height: 40px; fill: #fff; }
+.brand span { font-family: 'Marlide Display Bold'; font-size: 34px; color: #a7a9ac; }
+h1 { font-family: 'Marlide Display Bold'; font-weight: normal; font-size: 92px; line-height: 0.98; margin-top: 64px; letter-spacing: -0.5px; }
+.formats { margin-top: 34px; font-size: 25px; font-weight: 500; color: #a7a9ac; letter-spacing: 0.5px; }
+.formats b { color: #fff; font-weight: 500; }
+.card {
+    position: absolute; right: 64px; top: 70px; width: 500px;
+    background: #141414; border: 1px solid #262626; border-radius: 16px;
+    padding: 26px 26px 22px;
+    box-shadow: 0 24px 80px rgba(0,0,0,0.6);
+}
+.mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+    font-size: 15.5px; line-height: 1.62; word-break: break-all;
+}
+.hl { background: #fff; color: #000; border-radius: 2px; }
+.tip {
+    margin-top: 18px; padding: 14px 16px; border-radius: 10px;
+    background: #000; border: 1px solid #262626;
+}
+.tip .t { font-weight: 500; font-size: 17px; }
+.tip .s { margin-top: 4px; font-size: 14px; color: #a7a9ac; }
+.bottom {
+    position: absolute; left: 72px; right: 64px; bottom: 50px;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 21px; font-weight: 500;
+}
+.privacy { display: inline-flex; align-items: center; gap: 12px; }
+.url { color: #a7a9ac; font-weight: 400; }
+</style>
+</head>
+<body>
+<div class="left">
+    <div class="brand">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 258.12 100"><path d="m13.83,27.6L0,0h46.47C29.48,4.39,19.86,16.16,13.83,27.6Zm12.86,72.4h46.47l-13.83-27.6c-6.03,11.43-15.65,23.21-32.64,27.6ZM50.12,0L0,100h23.05L73.17,0h-23.05Zm59.33,27.59L123.28,0h-46.47c16.99,4.39,26.62,16.16,32.64,27.6Zm-32.64,72.4h46.47l-13.83-27.6c-6.03,11.43-15.65,23.21-32.64,27.6Zm-3.14-89.97l-11.52,22.98,8.51,16.99-8.51,16.98,11.52,22.98,20.03-39.96-20.03-39.97ZM179.43.01h-23.05s25.06,49.99,25.06,49.99l-25.06,50h23.04l25.06-50L179.43.01Zm-75.68,49.99l25.06,50h23.04s-25.06-50-25.06-50L151.85,0h-23.04s-25.06,50-25.06,50Zm140.53-22.4L258.12,0h-46.47c16.99,4.39,26.62,16.16,32.64,27.6Zm-45.5,44.81l-13.83,27.6h46.47c-16.99-4.39-26.62-16.16-32.64-27.6ZM184.95,0l50.12,100h23.05S208.01.01,208.01.01h-23.06Z"/></svg>
+        <span>Decoder</span>
+    </div>
+    <h1>Lightning.<br />Decoded.</h1>
+    <div class="formats"><b>BOLT 11</b> · <b>BOLT 12</b> · <b>LNURL</b></div>
+</div>
+<div class="card">
+    <div class="mono"><span style="color:#7d7d7d">lnbc</span><span style="color:#d8d8d8">2500u</span><span style="color:#7d7d7d">1</span><span style="color:#d8d8d8">pvjluez</span><span style="color:#ffffff">sp5zyg3zyg3zyg3zyg3zyg3zyg3zyg3zyg3zyg3zyg3zyg3zyg3zygs</span><span class="hl">pp5qqqsyqcyq5rqwzqfqqqsyqcyq5rqwzqfqqqsyqcyq5rqwzqfqypq</span><span style="color:#e4e4e4">dq5xysxxatsyp3k7enxv4js</span><span style="color:#949494">xqzpu</span><span style="color:#d0d0d0">9qrsgq</span><span style="color:#6f6f6f">uk0rl77nj30yxdy8j9vdx85fkpmdla2087ne0xh8nhedh8w27kyke0lp53ut353s06fv3qfegext0eh0ymjpf39tuven09sam30g4vgp</span><span style="color:#7d7d7d">fna3rh</span></div>
+    <div class="tip">
+        <div class="t">payment_hash ('p', type 1)</div>
+        <div class="s">SHA-256 of the preimage the payee reveals when paid</div>
+    </div>
+</div>
+<div class="bottom">
+    <span class="privacy">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+        Decoding runs in your browser
+    </span>
+    <span class="url">decoder.zeusln.com</span>
+</div>
+</body>
+</html>

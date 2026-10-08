@@ -1,0 +1,47 @@
+/*
+ * The ZEUS Monochrome theme, resolved. The decoder ships a single theme,
+ * so its values are fixed here as CSS variables.
+ */
+:root {
+    --theme-background: #000;
+    --theme-gradientBackground: #141414, #000000;
+    --theme-bg: linear-gradient(180deg, #141414, #000000);
+    --theme-secondary: #1f1f1f;
+    --theme-modalBackground: #1f1f1f;
+    --theme-separator: #1f1f1f;
+    --theme-text: white;
+    --theme-secondaryText: #a7a9ac;
+    --theme-highlight: #ffffff;
+    --theme-error: #992600;
+    --theme-outbound: #ffffff;
+    --theme-inbound: #8a8a8a;
+    --theme-outboundReserve: #b7b7b7;
+    --theme-inboundReserve: #636569;
+    --theme-success: #46be43;
+    --theme-warning: #e14c4c;
+    --theme-warningReserve: #ea8181;
+    --theme-bitcoin: #ffb040;
+    --theme-delete: #992600;
+    --theme-qr: #ffffff;
+    --theme-qrBackground: #000000;
+    --theme-qrLogoBackground: #ffffff;
+    --theme-qrFrame: #ffffff;
+    --theme-bolt: #ffffff;
+    --theme-chain: #ffffff;
+    --theme-disabled: #767577;
+    --theme-buttonBackground: #ffffff;
+    --theme-buttonText: #000000;
+    --theme-buttonTextSecondary: gray;
+    --theme-action: #ffffff;
+
+    /* Contrast companions: black or white, whichever reads on each surface. */
+    --theme-on-background: #ffffff;
+    --theme-on-secondary: #ffffff;
+    --theme-on-modalBackground: #ffffff;
+    --theme-on-highlight: #000000;
+    --theme-on-buttonBackground: #000000;
+    --theme-on-warning: #000000;
+    --theme-on-success: #000000;
+
+    color-scheme: dark;
+}
