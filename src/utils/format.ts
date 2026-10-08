@@ -5,7 +5,7 @@ function group(digits: string): string {
     return digits.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
-/** 250000123n -> "250,000.123 sat". */
+/** 250000123n -> "250,000.123 sats"; exactly 1 sat stays singular. */
 export function formatSats(msat: bigint): string {
     const sats = msat / 1000n;
     const rem = msat % 1000n;
@@ -13,7 +13,7 @@ export function formatSats(msat: bigint): string {
         rem === 0n
             ? ''
             : `.${rem.toString().padStart(3, '0').replace(/0+$/, '')}`;
-    return `${group(sats.toString())}${frac} sat`;
+    return `${group(sats.toString())}${frac} ${msat === 1000n ? 'sat' : 'sats'}`;
 }
 
 export function formatMsat(msat: bigint): string {
