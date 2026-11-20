@@ -46,8 +46,8 @@ export default function Badge({
             style={{
                 display: 'inline-flex',
                 alignItems: 'center',
-                fontFamily: font('montrealMedium'),
-                fontWeight: fontWeight.montrealMedium,
+                fontFamily: font('bodyMedium'),
+                fontWeight: fontWeight.bodyMedium,
                 fontSize: 11,
                 textTransform: 'uppercase',
                 letterSpacing: 0.5,

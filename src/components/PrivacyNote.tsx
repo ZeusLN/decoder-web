@@ -28,8 +28,8 @@ export default function PrivacyNote() {
                 display: 'inline-flex',
                 alignItems: 'center',
                 gap: 8,
-                fontFamily: font('montrealMedium'),
-                fontWeight: fontWeight.montrealMedium,
+                fontFamily: font('bodyMedium'),
+                fontWeight: fontWeight.bodyMedium,
                 fontSize: 14,
                 color: 'var(--theme-highlight)'
             }}

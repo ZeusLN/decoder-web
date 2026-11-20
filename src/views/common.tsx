@@ -35,7 +35,7 @@ export function NodeLink({
                     href={`https://amboss.space/node/${pubkey}`}
                     target="_blank"
                     rel="noreferrer noopener"
-                    style={{ fontFamily: font('montreal'), fontSize: 12 }}
+                    style={{ fontFamily: font('body'), fontSize: 12 }}
                 >
                     Amboss ↗
                 </a>
@@ -145,8 +145,8 @@ export function SubCard({
         >
             <div
                 style={{
-                    fontFamily: font('montrealMedium'),
-                    fontWeight: fontWeight.montrealMedium,
+                    fontFamily: font('bodyMedium'),
+                    fontWeight: fontWeight.bodyMedium,
                     fontSize: 13,
                     color: 'var(--theme-secondaryText)',
                     marginBottom: 4
@@ -163,8 +163,8 @@ export function GroupTitle({ children }: { children: ReactNode }) {
     return (
         <h3
             style={{
-                fontFamily: font('montrealMedium'),
-                fontWeight: fontWeight.montrealMedium,
+                fontFamily: font('bodyMedium'),
+                fontWeight: fontWeight.bodyMedium,
                 fontSize: 12,
                 textTransform: 'uppercase',
                 letterSpacing: 0.8,

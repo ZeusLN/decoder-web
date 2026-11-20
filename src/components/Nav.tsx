@@ -2,8 +2,8 @@ import { NavLink } from 'react-router';
 import { font, fontWeight } from '../utils/FontUtils';
 
 const linkStyle = {
-    fontFamily: font('montrealMedium'),
-    fontWeight: fontWeight.montrealMedium,
+    fontFamily: font('bodyMedium'),
+    fontWeight: fontWeight.bodyMedium,
     fontSize: 14,
     textDecoration: 'none',
     padding: '6px 12px',

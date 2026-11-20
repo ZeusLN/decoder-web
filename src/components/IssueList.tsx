@@ -47,7 +47,7 @@ export default function IssueList({ issues }: { issues: Issue[] }) {
                             background: c.background,
                             border: `1px solid ${c.border}`,
                             color: c.color,
-                            fontFamily: font('montreal'),
+                            fontFamily: font('body'),
                             fontSize: 13,
                             lineHeight: 1.45,
                             wordBreak: 'break-word'

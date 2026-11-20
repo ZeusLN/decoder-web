@@ -96,8 +96,8 @@ export default function Modal({
                             onClick={onClose}
                             aria-label="Close"
                             style={{
-                                fontFamily: font('montrealMedium'),
-                                fontWeight: fontWeight.montrealMedium,
+                                fontFamily: font('bodyMedium'),
+                                fontWeight: fontWeight.bodyMedium,
                                 fontSize: 14,
                                 padding: '4px 12px',
                                 borderRadius: 6,

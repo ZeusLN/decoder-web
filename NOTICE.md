@@ -14,11 +14,11 @@ The code in this project is licensed under the GNU Affero General Public License
 
 ## Fonts
 
-The font files in `src/assets/fonts/` are commercial typefaces, not covered by the AGPL, and used under licence by Atlas 21 Inc.:
+The font files in `src/assets/fonts/` are not covered by the AGPL:
 
-- PP Neue Montreal, copyright Pangram Pangram Foundry
-- Marlide Display, copyright Kontour Type, LLC
+- Roboto, copyright The Roboto Project Authors, licensed under the SIL Open Font License 1.1 (`LICENSES/OFL-1.1.txt`)
+- Marlide Display, copyright Kontour Type, LLC, a commercial typeface used under licence by Atlas 21 Inc. It may not be copied, redistributed or reused outside this project.
 
-They may not be copied, redistributed or reused outside this project. See `src/assets/fonts/LICENSE.md`.
+See `src/assets/fonts/LICENSE.md`.
 
 The share image (`public/og-image.png`) and its template (`scripts/og-image.html`) show text set in these typefaces.
