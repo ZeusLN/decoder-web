@@ -1,12 +1,12 @@
-# Font licence
+# Font licences
 
-The font files in this directory are commercial typefaces. They are **not** covered by this project's licence (AGPL-3.0-or-later) and are used here under licence by Atlas 21 Inc.
+The fonts in this directory are **not** covered by this project's licence (AGPL-3.0-or-later). Each has its own.
 
-| Files                                                                             | Typeface         | Copyright                                                                 |
-| --------------------------------------------------------------------------------- | ---------------- | ------------------------------------------------------------------------- |
-| `PPNeueMontreal-Book.otf`, `PPNeueMontreal-Medium.otf`, `PPNeueMontreal-Bold.otf` | PP Neue Montreal | Pangram Pangram Foundry, [pangrampangram.com](https://pangrampangram.com) |
-| `Marlide-Display-Bold.ttf`                                                        | Marlide Display  | Kontour Type, LLC, [kontour.com](https://kontour.com)                     |
+| Files                                                         | Typeface        | Licence                                                    | Copyright                                             |
+| ------------------------------------------------------------- | --------------- | ---------------------------------------------------------- | ----------------------------------------------------- |
+| `Roboto-Regular.ttf`, `Roboto-Medium.ttf`, `Roboto-Bold.ttf` | Roboto          | SIL Open Font License 1.1, see `LICENSES/OFL-1.1.txt`      | The Roboto Project Authors                            |
+| `Marlide-Display-Bold.ttf`                                    | Marlide Display | Commercial, used under licence by Atlas 21 Inc.            | Kontour Type, LLC, [kontour.com](https://kontour.com) |
 
-All rights reserved by their owners. "Neue Montreal" is a trademark of Pangram Pangram Foundry and "Marlide Display" is a trademark of Kontour Type, LLC.
+Roboto may be used, copied and redistributed under the terms of the Open Font License.
 
-You may not copy, redistribute or reuse these files outside this project. To use these typefaces elsewhere, buy a licence from the foundry.
+Marlide Display is a commercial typeface, all rights reserved by its owner. "Marlide Display" is a trademark of Kontour Type, LLC. You may not copy, redistribute or reuse that file outside this project. To use the typeface elsewhere, buy a licence from the foundry.

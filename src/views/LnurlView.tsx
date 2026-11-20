@@ -220,7 +220,7 @@ export function LnurlFields({ r }: { r: LnurlResult }) {
                 <p
                     style={{
                         marginTop: 16,
-                        fontFamily: font('montreal'),
+                        fontFamily: font('body'),
                         fontSize: 13,
                         color: 'var(--theme-secondaryText)'
                     }}

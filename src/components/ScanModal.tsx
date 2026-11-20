@@ -99,7 +99,7 @@ export default function ScanModal({
                     className="btn-secondary"
                     style={{
                         alignSelf: 'flex-start',
-                        fontFamily: font('montreal')
+                        fontFamily: font('body')
                     }}
                 >
                     Upload an image

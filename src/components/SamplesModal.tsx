@@ -19,8 +19,8 @@ export default function SamplesModal({
                     <div key={g}>
                         <div
                             style={{
-                                fontFamily: font('montrealMedium'),
-                                fontWeight: fontWeight.montrealMedium,
+                                fontFamily: font('bodyMedium'),
+                                fontWeight: fontWeight.bodyMedium,
                                 fontSize: 12,
                                 textTransform: 'uppercase',
                                 letterSpacing: 0.8,

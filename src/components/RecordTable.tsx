@@ -46,8 +46,8 @@ export default function RecordTable({
                         style={{
                             borderBottom: '1px solid var(--theme-separator)',
                             color: 'var(--theme-secondaryText)',
-                            fontFamily: font('montrealMedium'),
-                            fontWeight: fontWeight.montrealMedium,
+                            fontFamily: font('bodyMedium'),
+                            fontWeight: fontWeight.bodyMedium,
                             fontSize: 14
                         }}
                     >

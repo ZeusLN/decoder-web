@@ -7,24 +7,24 @@
 }
 
 @font-face {
-    font-family: 'PP Neue Montreal';
-    src: url('../assets/fonts/PPNeueMontreal-Book.otf') format('opentype');
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'PP Neue Montreal';
-    src: url('../assets/fonts/PPNeueMontreal-Medium.otf') format('opentype');
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'PP Neue Montreal';
-    src: url('../assets/fonts/PPNeueMontreal-Bold.otf') format('opentype');
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;

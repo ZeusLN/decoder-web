@@ -126,8 +126,8 @@ export default function AnnotatedString({
                     <>
                         <div
                             style={{
-                                fontFamily: font('montrealMedium'),
-                                fontWeight: fontWeight.montrealMedium,
+                                fontFamily: font('bodyMedium'),
+                                fontWeight: fontWeight.bodyMedium,
                                 fontSize: 14,
                                 color: 'var(--theme-text)'
                             }}

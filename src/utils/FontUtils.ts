@@ -4,28 +4,28 @@
  *
  * Font roles:
  *   Marlide Display Bold     — Headlines, page titles, section headers, stat values
- *   PP Neue Montreal         — Body text, labels, descriptions, buttons, table cells
+ *   Roboto                   — Body text, labels, descriptions, buttons, table cells
  */
 
 const Fonts: Record<string, string> = {
     // Headlines / display
     marlideBold: 'Marlide Display Bold',
     // Body / UI
-    montreal: "'PP Neue Montreal', sans-serif",
-    montrealMedium: "'PP Neue Montreal', sans-serif",
-    montrealBold: "'PP Neue Montreal', sans-serif"
+    body: "'Roboto', sans-serif",
+    bodyMedium: "'Roboto', sans-serif",
+    bodyBold: "'Roboto', sans-serif"
 };
 
 /**
- * Font weight to pair with montreal variants:
- *   montreal       → font-weight: 400 (Book)
- *   montrealMedium → font-weight: 500
- *   montrealBold   → font-weight: 700
+ * Font weight to pair with body variants:
+ *   body       → font-weight: 400 (Regular)
+ *   bodyMedium → font-weight: 500
+ *   bodyBold   → font-weight: 700
  */
 export const fontWeight: Record<string, number> = {
-    montreal: 400,
-    montrealMedium: 500,
-    montrealBold: 700
+    body: 400,
+    bodyMedium: 500,
+    bodyBold: 700
 };
 
 export function font(id: keyof typeof Fonts): string {

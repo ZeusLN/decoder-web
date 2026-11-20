@@ -28,8 +28,8 @@ export const sectionTitleStyle: CSSProperties = {
 };
 
 export const subtitleStyle: CSSProperties = {
-    fontFamily: font('montreal'),
-    fontWeight: fontWeight.montreal,
+    fontFamily: font('body'),
+    fontWeight: fontWeight.body,
     fontSize: 16,
     color: 'var(--theme-secondaryText)',
     lineHeight: 1.5
@@ -37,8 +37,8 @@ export const subtitleStyle: CSSProperties = {
 
 export const labelStyle: CSSProperties = {
     display: 'block',
-    fontFamily: font('montrealMedium'),
-    fontWeight: fontWeight.montrealMedium,
+    fontFamily: font('bodyMedium'),
+    fontWeight: fontWeight.bodyMedium,
     fontSize: 13,
     color: 'var(--theme-secondaryText)',
     marginBottom: 6
@@ -51,8 +51,8 @@ export const inputStyle: CSSProperties = {
     border: '1px solid rgba(128, 128, 128, 0.25)',
     background: 'var(--theme-secondary)',
     color: 'var(--theme-text)',
-    fontFamily: font('montreal'),
-    fontWeight: fontWeight.montreal,
+    fontFamily: font('body'),
+    fontWeight: fontWeight.body,
     fontSize: 14,
     boxSizing: 'border-box',
     outline: 'none'
@@ -64,7 +64,7 @@ export const errorBoxStyle: CSSProperties = {
     background: 'rgba(225, 76, 76, 0.1)',
     border: '1px solid rgba(225, 76, 76, 0.4)',
     color: '#E14C4C',
-    fontFamily: font('montreal'),
+    fontFamily: font('body'),
     fontSize: 13,
     wordBreak: 'break-word'
 };
@@ -82,8 +82,8 @@ export const tabBarStyle: CSSProperties = {
 
 export function tabStyle(active: boolean): CSSProperties {
     return {
-        fontFamily: font('montrealMedium'),
-        fontWeight: fontWeight.montrealMedium,
+        fontFamily: font('bodyMedium'),
+        fontWeight: fontWeight.bodyMedium,
         fontSize: 18,
         padding: '10px 20px',
         border: 'none',

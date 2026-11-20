@@ -1,9 +1,8 @@
-Proprietary font software. All rights reserved by the copyright owners:
+Proprietary font software. All rights reserved by the copyright owner:
 
-- PP Neue Montreal: Copyright Pangram Pangram Foundry (https://pangrampangram.com)
 - Marlide Display: Copyright Kontour Type, LLC (https://kontour.com)
 
-These files are used by Atlas 21 Inc. under licence from their owners. They
-are not covered by this project's open source licence and may not be copied,
-redistributed or reused outside this project. To use these typefaces
+This file is used by Atlas 21 Inc. under licence from its owner. It is not
+covered by this project's open source licence and may not be copied,
+redistributed or reused outside this project. To use this typeface
 elsewhere, buy a licence from the foundry.

@@ -24,8 +24,8 @@ function GitHubIcon() {
 }
 
 const linkStyle = {
-    fontFamily: font('montrealMedium'),
-    fontWeight: fontWeight.montrealMedium,
+    fontFamily: font('bodyMedium'),
+    fontWeight: fontWeight.bodyMedium,
     fontSize: 13,
     color: 'var(--theme-highlight)',
     textDecoration: 'none'
@@ -36,8 +36,8 @@ export default function Footer() {
         <footer className="app-footer">
             <span
                 style={{
-                    fontFamily: font('montreal'),
-                    fontWeight: fontWeight.montreal,
+                    fontFamily: font('body'),
+                    fontWeight: fontWeight.body,
                     fontSize: 13,
                     color: 'var(--theme-secondaryText)'
                 }}

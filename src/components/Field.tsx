@@ -32,8 +32,8 @@ export default function Field({
 }: FieldProps) {
     const info = fieldInfo(infoKey ?? label);
     const valueStyle = {
-        fontFamily: mono ? MONO : font('montreal'),
-        fontWeight: fontWeight.montreal,
+        fontFamily: mono ? MONO : font('body'),
+        fontWeight: fontWeight.body,
         fontSize: mono ? 12.5 : 14,
         color: 'var(--theme-text)',
         wordBreak: 'break-all' as const,
@@ -46,8 +46,8 @@ export default function Field({
                     display: 'inline-flex',
                     alignItems: 'center',
                     gap: 6,
-                    fontFamily: font('montrealMedium'),
-                    fontWeight: fontWeight.montrealMedium,
+                    fontFamily: font('bodyMedium'),
+                    fontWeight: fontWeight.bodyMedium,
                     fontSize: 13,
                     color: 'var(--theme-secondaryText)'
                 }}
@@ -66,7 +66,7 @@ export default function Field({
                         style={{
                             display: 'block',
                             marginTop: 2,
-                            fontFamily: font('montreal'),
+                            fontFamily: font('body'),
                             fontSize: 12,
                             color: 'var(--theme-secondaryText)'
                         }}

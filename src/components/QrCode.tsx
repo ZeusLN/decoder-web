@@ -39,7 +39,7 @@ export default function QrCode({ value }: { value: string }) {
         return (
             <p
                 style={{
-                    fontFamily: font('montreal'),
+                    fontFamily: font('body'),
                     fontSize: 13,
                     color: 'var(--theme-secondaryText)'
                 }}
