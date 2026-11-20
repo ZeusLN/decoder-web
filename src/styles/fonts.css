@@ -1,12 +1,4 @@
 @font-face {
-    font-family: 'Marlide Display';
-    src: url('../assets/fonts/Marlide-Display.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Marlide Display Bold';
     src: url('../assets/fonts/Marlide-Display-Bold.ttf') format('truetype');
     font-weight: bold;

@@ -3,13 +3,12 @@
  * Adapted for web — no React Native Platform dependency.
  *
  * Font roles:
- *   Marlide Display / Bold  — Headlines, page titles, section headers, stat values
+ *   Marlide Display Bold     — Headlines, page titles, section headers, stat values
  *   PP Neue Montreal         — Body text, labels, descriptions, buttons, table cells
  */
 
 const Fonts: Record<string, string> = {
     // Headlines / display
-    marlide: 'Marlide Display',
     marlideBold: 'Marlide Display Bold',
     // Body / UI
     montreal: "'PP Neue Montreal', sans-serif",
