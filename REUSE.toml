@@ -7,12 +7,12 @@ precedence = "aggregate"
 SPDX-FileCopyrightText = "2026 Atlas 21 Inc."
 SPDX-License-Identifier = "AGPL-3.0-or-later"
 
-# Commercial font, used under licence; not open source.
+# Gloock, under the SIL Open Font License.
 [[annotations]]
-path = ["src/assets/fonts/Marlide-Display-Bold.ttf"]
+path = ["src/assets/fonts/Gloock-Regular.ttf"]
 precedence = "override"
-SPDX-FileCopyrightText = "2022 Kontour Type, LLC"
-SPDX-License-Identifier = "LicenseRef-Proprietary-Fonts"
+SPDX-FileCopyrightText = "2022 The Gloock Project Authors"
+SPDX-License-Identifier = "OFL-1.1"
 
 # Roboto, under the SIL Open Font License.
 [[annotations]]

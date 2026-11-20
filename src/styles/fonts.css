@@ -1,6 +1,8 @@
+/* Gloock has one weight. Declaring it as bold stops the browser from
+   synthesizing a bolder version for headings, which are bold by default. */
 @font-face {
-    font-family: 'Marlide Display Bold';
-    src: url('../assets/fonts/Marlide-Display-Bold.ttf') format('truetype');
+    font-family: 'Gloock';
+    src: url('../assets/fonts/Gloock-Regular.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;

@@ -52,8 +52,8 @@ export default function Nav() {
                 </svg>
                 <span
                     style={{
-                        fontFamily: font('marlideBold'),
-                        fontSize: 16,
+                        fontFamily: font('headline'),
+                        fontSize: 13.6,
                         color: 'var(--theme-secondaryText)',
                         opacity: 0.7
                     }}

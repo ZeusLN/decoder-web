@@ -13,16 +13,16 @@ export const cardStyle: CSSProperties = {
 };
 
 export const pageTitleStyle: CSSProperties = {
-    fontFamily: font('marlideBold'),
-    fontSize: 44,
+    fontFamily: font('headline'),
+    fontSize: 37.4,
     lineHeight: 1.05,
     color: 'var(--theme-highlight)',
     fontWeight: 'normal'
 };
 
 export const sectionTitleStyle: CSSProperties = {
-    fontFamily: font('marlideBold'),
-    fontSize: 24,
+    fontFamily: font('headline'),
+    fontSize: 20.4,
     color: 'var(--theme-highlight)',
     fontWeight: 'normal'
 };

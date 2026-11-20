@@ -1,8 +1,0 @@
-Proprietary font software. All rights reserved by the copyright owner:
-
-- Marlide Display: Copyright Kontour Type, LLC (https://kontour.com)
-
-This file is used by Atlas 21 Inc. under licence from its owner. It is not
-covered by this project's open source licence and may not be copied,
-redistributed or reused outside this project. To use this typeface
-elsewhere, buy a licence from the foundry.

@@ -3,13 +3,13 @@
  * Adapted for web — no React Native Platform dependency.
  *
  * Font roles:
- *   Marlide Display Bold     — Headlines, page titles, section headers, stat values
+ *   Gloock                   — Headlines, page titles, section headers, stat values
  *   Roboto                   — Body text, labels, descriptions, buttons, table cells
  */
 
 const Fonts: Record<string, string> = {
     // Headlines / display
-    marlideBold: 'Marlide Display Bold',
+    headline: 'Gloock',
     // Body / UI
     body: "'Roboto', sans-serif",
     bodyMedium: "'Roboto', sans-serif",
