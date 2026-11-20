@@ -76,8 +76,8 @@ export default function Modal({
                 >
                     <h2
                         style={{
-                            fontFamily: font('marlideBold'),
-                            fontSize: 30,
+                            fontFamily: font('headline'),
+                            fontSize: 25.5,
                             color: 'var(--theme-highlight)',
                             margin: 0
                         }}

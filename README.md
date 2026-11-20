@@ -35,6 +35,6 @@ One BOLT 11 example ("Same, but including fields which must be ignored") is reje
 
 The code is AGPL-3.0-or-later, like ZEUS.
 
-The fonts in `src/assets/fonts/` are not covered by the AGPL. Roboto is under the SIL Open Font License. Marlide Display is a commercial typeface used under licence and may not be copied or reused outside this project. See `src/assets/fonts/LICENSE.md`.
+The fonts in `src/assets/fonts/` (Roboto and Gloock) are not covered by the AGPL. Both are under the SIL Open Font License. See `src/assets/fonts/LICENSE.md`.
 
 See `NOTICE.md` for third-party code and test vectors, and `REUSE.toml` for the licence of each file.
